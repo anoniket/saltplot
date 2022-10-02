@@ -1,0 +1,55 @@
+.editor-container {
+    width: 80vw;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.rich-editor {
+    width: 90%;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        /* or 133% */
+    
+    
+        color: #091E42;
+    
+        opacity: 0.6;
+}
+
+.rich-editor-2{
+background: #F4F5F7;
+    border-radius: 10px 10px 0px 0px;
+    padding: 30px;
+  
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+   
+    
+    
+        color: #091E42;
+    
+        opacity: 0.6;
+}
+
+.tags {
+    width: 10%;
+
+}
+
+.tag {
+   
+  border-radius: 5px;
+    opacity: 0.9;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.tag-highlight {
+    
+    font-weight: 600;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 4px 12px;
+}
